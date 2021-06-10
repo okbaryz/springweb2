@@ -18,7 +18,7 @@
 				
 				<nav>
 				<ul class="menu">
-					<li><a href="index.jsp">회사소개</a></li>
+					<li><a href="introduce.jsp">회사소개</a></li>
 					<li><a href="">패션 선글라스</a>
 						<ul class="sub">
 							<li><a href="">FENDI</a></li>
@@ -44,13 +44,13 @@
 							<li><a href="">TOMMY HILFIGER</a></li>
 						</ul>
 					</li>
-					<li><a href="">악세서리</a>
+					<li><a href="accessory.jsp">악세서리</a>
 						<ul class="sub">
-							<li><a href="">케이스&파우치</a></li>
-							<li><a href="">관리용품</a></li>
+							<li><a href="accessory.jsp">케이스&파우치</a></li>
+							<li><a href="accessory2.jsp">관리용품</a></li>
 						</ul>
 					</li>
-					<li><a href="">기타잡화</a></li>
+					<li><a href="index4.jsp">기타잡화</a></li>
 				</ul>
 				</nav>
 			</header>
@@ -82,7 +82,7 @@
 		
 		<div class="itemlist">
 			<div class="itemlist_title">
-				<h2>케이스 & 파우치</h2>
+				<h2>관리용품</h2>
 			</div>
 			<div class="itemlist_category">
 				<ul>
@@ -116,6 +116,10 @@
 					<option>40개씩보기</option>
 				</select>	
 			</div>
+		</div>
+		
+		<div class="goods_no_data">
+			<strong>상품이 존재하지 않습니다.</strong>
 		</div>
 	</div>
 	

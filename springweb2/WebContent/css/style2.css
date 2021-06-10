@@ -1,6 +1,6 @@
 body {
 	line-height: 1.5;
-    font-family: Roboto,Arial,'Nanum Gothic' ,나눔고딕, 돋움, Malgun Gothic,"맑은 고딕",AppleGothic,Dotum,"돋움",sans-serif;
+    font-family: Roboto,Arial,'Nanum Gothic' , Malgun Gothic,AppleGothic,Dotum,sans-serif;
     color: #555;
 }
 
@@ -141,6 +141,10 @@ div.middle-contents {
 	font-size: 14px;
 }
 
+.itemlist_title h2 {
+	
+}
+
 .itemlist_category {
 	margin: 0 0 40px 0;
 	padding: 3px 0 3px 0;
@@ -228,6 +232,16 @@ div.middle-contents {
 	margin-top: -45px;
 }
 
+.goods_no_data {
+	border-bottom: 1px solid #dbdbdb;
+	margin-bottom: 100px;
+}
+
+.goods_no_data strong {
+	font-weight: normal;
+	line-height: 150px;
+}
+
 div.bottom-contents {
 	border-top: 1px solid #e9e9e9;
 	border-bottom: 1px solid #e9e9e9;
@@ -272,6 +286,10 @@ div.bottom-contents > div {
 	white-space: nowrap;
 	word-wrap: break-word;
 	font-size: 13px;
+}
+
+.tabwrap #panelsbo a:hover {
+	text-decoration: underline;
 }
 
 ul.tabs {
@@ -404,16 +422,20 @@ div.bottom_contents2 {
 
 .foot_info dl {
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 .foot_info dt {
 	float: left;
-	padding-right: -10px;
+	padding: 0;
+	margin: 0;
 }
 
 .foot_info dd {
 	float: left;
-	padding: 0 25px 0 3px;
+	padding: 0 15px 0 0;
+	margin: 0;
 }
 
 .foot_info a {

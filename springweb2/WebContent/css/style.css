@@ -8,6 +8,10 @@ strong {
 	font-weight: bold;
 }
 
+dl, ul, ol, li {
+    list-style: none;
+}
+
 div.top-contents {
 	width: 100%;
 	height: 400px;
@@ -104,6 +108,12 @@ div.introduce {
 	border-top: 1px solid lightgray;
 	margin-left: 400px;
 	margin-right: 400px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+div.introduce p {
+	line-height: 0.5em;
 }
 
 div.bottom-contents {
@@ -149,6 +159,10 @@ div.bottom-contents > div {
 	white-space: nowrap;
 	word-wrap: break-word;
 	font-size: 13px;
+}
+
+.tabwrap #panelsbo a:hover {
+	text-decoration: underline;
 }
 
 ul.tabs {
@@ -281,16 +295,20 @@ div.bottom_contents2 {
 
 .foot_info dl {
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 .foot_info dt {
 	float: left;
-	padding-right: -10px;
+	padding: 0;
+	margin: 0;
 }
 
 .foot_info dd {
 	float: left;
-	padding: 0 25px 0 3px;
+	padding: 0 15px 0 0;
+	margin: 0;
 }
 
 .foot_info a {

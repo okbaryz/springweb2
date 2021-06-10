@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>팀프로젝트</title>
-<link rel="stylesheet" href="css/style.css"></link>
+<link rel="stylesheet" href="css/style2.css"></link>
 <style></style>
 </head>
 <body>
@@ -18,7 +18,7 @@
 				
 				<nav>
 				<ul class="menu">
-					<li><a href="">회사소개</a></li>
+					<li><a href="introduce.jsp">회사소개</a></li>
 					<li><a href="">패션 선글라스</a>
 						<ul class="sub">
 							<li><a href="">FENDI</a></li>
@@ -44,13 +44,13 @@
 							<li><a href="">TOMMY HILFIGER</a></li>
 						</ul>
 					</li>
-					<li><a href="index2.jsp">악세서리</a>
+					<li><a href="accessory.jsp">악세서리</a>
 						<ul class="sub">
-							<li><a href="index2.jsp">케이스&파우치</a></li>
-							<li><a href="">관리용품</a></li>
+							<li><a href="accessory.jsp">케이스&파우치</a></li>
+							<li><a href="accessory2.jsp">관리용품</a></li>
 						</ul>
 					</li>
-					<li><a href="">기타잡화</a></li>
+					<li><a href="index4.jsp">기타잡화</a></li>
 				</ul>
 				</nav>
 			</header>
@@ -58,27 +58,69 @@
 	</div>
 	
 	<div class="middle-contents">
-		<h2>회사소개</h2>
-	</div>
-	<div class="introduce">
-		<p>안녕하세요.</p>
-		<p>해외 명품 선글라스, 안경테 전문 쇼핑몰 2FACE(투페이스)입니다.</p>
-		<p><br></p>
-		<p>저희 2FACE는 세계에서 가장 유명한 선글라스 제조/유통사중 한 곳인 "SAFILO Group(사필로 그룹)"의 한국 지사인 "SAFILO KOREA(사필로 코리아)"의 공식 파트너로</p>
-		<p>지미추, 막스마라, 지방시, 휴고보스 및 까레라, 폴라로이드등의 선글라스 및 안경테를 취급하고 있습니다.</p>
-		<p><br></p>
-		<p>저희는 오랜 기간 아이웨어가 필요한 현장에서 소비자들을 만나고 있으며,</p>
-		<p>제품에 대한 상담과 구매를 도와드리기 위해 항상 준비하고 있습니다.</p>
-		<p><br></p>
-		<p>궁금한 사항이 있다면 언제든지 연락주세요.</p>
-		<p><br></p>
-		<p>가능한 빠른 답변 드리겠습니다.</p>
-		<p><br></p>
-		<p>2FACE(투페이스) : 070-4044-3581</p>
-		<p><br></p>
-		<p>* 상담 가능시간 : 평일 오전 10:00 ~ 오후 5:00</p>
-		<p>* 점심시간 : 오후 12:30 ~ 1:30</p>
-		<p>* 토요일, 일요일 및 공휴일은 휴무입니다.</p>
+		<div class="location_wrap">
+			<div class="location_cont">
+				<em>HOME</em>
+				<span> > </span>
+				<div class="location_select">
+					<select>
+						<option>악세서리</option>
+						<option>패션 선글라스</option>
+						<option>안경테</option>
+						<option>기타잡화</option>
+					</select>
+				</div>
+				<span> > </span>
+				<div class="location_select">
+					<select>
+						<option>케이스 & 파우치</option>
+						<option>관리용품</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		
+		<div class="itemlist">
+			<div class="itemlist_title">
+				<h2>케이스 & 파우치</h2>
+			</div>
+			<div class="itemlist_category">
+				<ul>
+					<li><a href="">케이스 & 파우치 (0)</a></li>
+					<li><a href="">관리용품 (0)</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="goods_list">
+			<span class="goods_list_num">
+			상품 <strong>0</strong> 개
+			</span>
+			
+			<div class="goods_list_box">
+				<ul>
+					<li><a href="">추천순</a></li>
+					<li><a href="">판매인기순</a></li>
+					<li><a href="">낮은가격순</a></li>
+					<li><a href="">높은가격순</a></li>
+					<li><a href="">상품평순</a></li>
+					<li><a href="">등록일순</a></li>
+				</ul>
+			</div>
+			
+			<div class="the_number">
+				<select>
+					<option>10개씩보기</option>
+					<option selected="selected">20개씩보기</option>
+					<option>30개씩보기</option>
+					<option>40개씩보기</option>
+				</select>	
+			</div>
+		</div>
+		
+		<div class="goods_no_data">
+			<strong>상품이 존재하지 않습니다.</strong>
+		</div>
 	</div>
 	
 	<div class="bottom-contents">
