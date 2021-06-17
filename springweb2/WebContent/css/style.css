@@ -20,14 +20,12 @@ div.top-contents {
 
 div.top-text {
 	margin-top: 30px;
-	margin-bottom: 20px;
 	width: 100%;
 	position: absolute;
-	border-bottom: 2px solid #000000;
 }
 
 div.top-text header {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -39,16 +37,23 @@ header #logo {
 header #logo img {
 	width: 250px;
 	height: 100px;
+	padding-left: 350px;
 }
 
 header nav {
 	float: right;
 	text-align: center;
-	margin-top: 40px;
+	clear: both;
+	width: 100%;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-bottom: -30px;
 }
 
 header nav ul.menu {
 	list-style-type: none;
+	padding-left: 350px;
+	line-height: 50px;
 }
 
 header nav ul.menu>li {
@@ -100,6 +105,10 @@ div.middle-contents {
 	margin-left: 400px;
 	margin-right: 400px;
 	padding-top: 50px;
+}
+
+div.middle-contents h2 {
+	margin-top: 50px;
 }
 
 div.introduce {

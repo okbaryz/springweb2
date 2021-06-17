@@ -18,6 +18,10 @@ strong {
 	font-weight: bold;
 }
 
+dl, ul, ol, li {
+    list-style: none;
+}
+
 div.top-contents {
 	width: 100%;
 	height: 400px;
@@ -26,14 +30,12 @@ div.top-contents {
 
 div.top-text {
 	margin-top: 30px;
-	margin-bottom: 20px;
 	width: 100%;
 	position: absolute;
-	border-bottom: 2px solid #000000;
 }
 
 div.top-text header {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -45,16 +47,23 @@ header #logo {
 header #logo img {
 	width: 250px;
 	height: 100px;
+	padding-left: 350px;
 }
 
 header nav {
 	float: right;
 	text-align: center;
-	margin-top: 40px;
+	clear: both;
+	width: 100%;
+	border-top: 2px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding-bottom: -30px;
 }
 
 header nav ul.menu {
 	list-style-type: none;
+	padding-left: 350px;
+	line-height: 50px;
 }
 
 header nav ul.menu>li {
@@ -99,10 +108,12 @@ header nav ul.menu ul.sub a {
 
 header nav ul.menu ul.sub a:hover {
 	color: #fff;
-} 
+}
+
+ 
 
 div.middle-contents {
-	margin-top: -250px;
+	margin-top: -200px;
 	margin-left: 400px;
 	margin-right: 400px;
 	padding-top: 50px;

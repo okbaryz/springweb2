@@ -50,7 +50,17 @@
 							<li><a href="accessory2.jsp">관리용품</a></li>
 						</ul>
 					</li>
-					<li><a href="index4.jsp">기타잡화</a></li>
+					<li><a href="othergoods.jsp">기타잡화</a></li>
+					<li><a href="genuine.jsp">정품등록</a>
+						<ul class="sub">
+							<li><a href="genuine.jsp">정품등록</a></li>
+							<li><a href="notice.jsp">공지사항</a></li>
+							<li><a href="event.jsp">이벤트 & 갤러리</a></li>
+							<li><a href="inquiry.jsp">상품문의</a></li>
+							<li><a href="review.jsp">상품후기</a></li>
+							<li><a href="">이용안내 FAQ</a></li>
+						</ul>
+					</li>
 				</ul>
 				</nav>
 			</header>
