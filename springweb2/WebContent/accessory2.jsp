@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"%>
+style_review.css<%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>팀프로젝트</title>
-<link rel="stylesheet" href="css/style2.css"></link>
+<link rel="stylesheet" href="css/style_accessory.css"></link>
 <style></style>
 </head>
 <body>
@@ -92,11 +92,11 @@
 		
 		<div class="itemlist">
 			<div class="itemlist_title">
-				<h2>관리용품</h2>
+				<h2>케이스 & 파우치</h2>
 			</div>
 			<div class="itemlist_category">
 				<ul>
-					<li><a href="">케이스 & 파우치 (0)</a></li>
+					<li><a href="" class="bold">케이스 & 파우치 (0)</a></li>
 					<li><a href="">관리용품 (0)</a></li>
 				</ul>
 			</div>

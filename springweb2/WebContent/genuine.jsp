@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>팀프로젝트</title>
-<link rel="stylesheet" href="css/style3.css"></link>
+<link rel="stylesheet" href="style_event.css"></link>
 <style></style>
 </head>
 <body>

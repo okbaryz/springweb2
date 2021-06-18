@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>팀프로젝트</title>
-<link rel="stylesheet" href="css/style2.css"></link>
+<link rel="stylesheet" href="css/style_accessory.css"></link>
 <style></style>
 </head>
 <body>
@@ -92,7 +92,7 @@
 		
 		<div class="itemlist">
 			<div class="itemlist_title">
-				<h2>케이스 & 파우치</h2>
+				<h2>악세사리</h2>
 			</div>
 			<div class="itemlist_category">
 				<ul>
